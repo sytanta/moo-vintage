@@ -65,3 +65,31 @@
   font-size: 1.9rem;
   text-align: center;
 }
+
+.product-bubble {
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 9.5rem;
+  left: 17rem;
+  position: absolute;
+  text-align: center;
+  top: 2.7rem;
+  width: 9rem;
+  z-index: 1;
+}
+
+.product-bubble > span {
+  font-size: 1.5rem;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+.bubble--sale > span,
+.bubble--fave > span {
+  color: #fff;
+}
+.bubble--new > span {
+  color: #000;
+}
