@@ -2,43 +2,44 @@
   "sections": {
     "1633621098d1c46f7f": {
       "type": "hero",
-      "settings": {
-      }
-    },
-    "image_banner": {
-      "type": "image-banner",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "2c0ef994-845d-4819-997d-643a9f083d31": {
+          "type": "collection",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "medium"
+            "collection": "beach",
+            "image_bg": "shopify:\/\/shop_images\/hero-beach.png",
+            "image_hover": "shopify:\/\/shop_images\/hero-beach-hover.png"
           }
         },
-        "button": {
-          "type": "buttons",
+        "e54bc202-a508-46ea-b232-fec8e94b09d6": {
+          "type": "collection",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "collection": "denim",
+            "image_bg": "shopify:\/\/shop_images\/hero-denim.png",
+            "image_hover": "shopify:\/\/shop_images\/hero-denim-hover.png"
+          }
+        },
+        "3beea92e-8c28-4e79-89f0-d93b4e26c724": {
+          "type": "collection",
+          "settings": {
+            "collection": "back-to-work",
+            "image_bg": "shopify:\/\/shop_images\/hero-work.png",
+            "image_hover": "shopify:\/\/shop_images\/hero-work-hover.png"
           }
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "2c0ef994-845d-4819-997d-643a9f083d31",
+        "e54bc202-a508-46ea-b232-fec8e94b09d6",
+        "3beea92e-8c28-4e79-89f0-d93b4e26c724"
       ],
       "settings": {
-        "adapt_height_first_image": false,
-        "desktop_text_box_position": "flex-end",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+      }
+    },
+    "1633623751c5e4c1ae": {
+      "type": "weekly-picks",
+      "settings": {
+        "collection": "back-to-work"
       }
     },
     "rich_text": {
@@ -185,7 +186,7 @@
   },
   "order": [
     "1633621098d1c46f7f",
-    "image_banner",
+    "1633623751c5e4c1ae",
     "rich_text",
     "featured_products",
     "collage",
